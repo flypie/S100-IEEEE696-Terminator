@@ -94,10 +94,10 @@
       (place Q4 176530.000000 -197780.000000 front 180.000000 (PN TIP30))
     )
     (component Capacitor_THT:CP_Radial_D10.0mm_P5.00mm
-      (place C3 179070.000000 -139527.677000 front 90.000000 (PN "39 UF"))
+      (place C3 179070.000000 -139527.700000 front 90.000000 (PN "39 UF"))
     )
     (component Capacitor_THT:CP_Radial_D10.0mm_P5.00mm::1
-      (place C1 171450.000000 -120822.323000 front -90.000000 (PN "39 UF"))
+      (place C1 171450.000000 -120822.300000 front -90.000000 (PN "39 UF"))
     )
     (component Capacitor_THT:CP_Radial_Tantal_D6.0mm_P5.00mm::3
       (place C4 158790.000000 -156805.000000 front 180.000000 (PN "39 UF"))
@@ -2115,7 +2115,8 @@
   )
   (network
     (net /Vacc
-      (pins IC2-6 R4-1 R7-1 R6-2 R8-1 C7-1 C6-1 Q3-3 Q4-3 C3-1 C4-1 C5-1 R11-1 R14-1)
+      (pins IC2-6 R4-1 R7-1 R6-2 R8-1 C7-1 C6-1 Q3-3 Q4-3 C3-1 C4-1 C5-1 R13-1 R11-1
+        R12-1 R14-1)
     )
     (net "{slash}VI0"
       (pins RR1-3 P2-7)
@@ -2388,14 +2389,8 @@
     (net PSYNC
       (pins RR8-7 P3-2)
     )
-    (net "unconnected-(R12-Pad1)"
-      (pins R12-1)
-    )
     (net "{slash}PWR"
       (pins RR8-8 P3-4)
-    )
-    (net "unconnected-(R13-Pad1)"
-      (pins R13-1)
     )
     (net PDBIN
       (pins RR8-9 P3-6)
